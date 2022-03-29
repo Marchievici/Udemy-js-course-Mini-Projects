@@ -102,7 +102,6 @@ const checkWhenButtonPressed = (data) => {
 const close_modal = document.getElementById('backdrop')
 close_modal.addEventListener('click', () => {
     if (modal.style.display === 'block') {
-        console.log(modal.style.display)
         modal.style.display = 'none'
     }
 })
